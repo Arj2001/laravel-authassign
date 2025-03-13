@@ -15,7 +15,7 @@
                             </span>
                         </div>
                         @if ($post->image != null)
-                            <img class="card-img-top" src="{{ asset('storage/' . $post->image) }}" alt="{{ $post->title }}" />
+                            <img class="card-img-top" src="{{ asset('storage/' . $post->image) }}" alt="{{ $post->title }}" height="400px"  />
                         @endif
                         <div class="card-body">
                             <p class="card-text">{{ $post->content }}</p>
